@@ -28,40 +28,6 @@ body{
     height: 40;
     border: 5px solid yellowgreen;
     margin: 18px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-}
-.cuadrado {
-    width: 25%;
-    height: 25%;
-    background-color: rgb(3, 154, 255);
-    border: 1px solid black;
-    position: absolute;
-}
-
-.cuadrado2 {
-    width: 25%;
-    height: 25%;
-    background-color: rgb(3, 154, 255);
-    border: 1px solid black;
- 
-}
-
-#cuadro1 {
-top: 0%;
-left: 0%;
-}
-
-#cuadro2 {
-top: 25%;
-left: 25%;
-}
-
-#cuadro3 {
-top: 50%;
-left: 50%;
 }
 
 /***********************/
@@ -73,7 +39,7 @@ text-align: center;
 #lienzo {
 width: 700px;
 height: 600px;
-background-image: url("https://igualdadanimal.mx/app/uploads/2020/07/blog-vacas-maltrato-animal-crueldad-2-mx.jpg");
+background-image: url(https://www.shutterstock.com/image-vector/adorable-cartoon-puppy-sitting-smiling-600nw-2622406191.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 border: 1px solid black;
@@ -82,14 +48,65 @@ position: relative;
 }
 
 .circulo {
-    width: 100px; /* ancho */
-    height: 100px; /* alto */
-    background-color: rgb(24, 214, 208); /* color de fondo */
+    width: 300px; /* ancho */
+    height: 300px; /* alto */
+    background-color: #f7b06d; /* color de fondo */
     border-radius: 50%; /* redondea los bordes de la figura*/
-    border: 3px solid black; /* borde de la figura: grosor, estilo, color */
+    border: 3px solid rgb(247, 176, 109); /* borde de la figura: grosor, estilo, color */
     position: absolute; /* ubicar los elementos en una posición fija que definimos a continuación */
-    top: 10px; /* posición desde el borde superior del lienzo */
-    left: 10px; /* posición desde el borde izquierdo del lienzo */
+    top: 12%; /* posición desde el borde superior del lienzo */
+    left: 27%; /* posición desde el borde izquierdo del lienzo */
+}
+
+#jeta {
+width: 380px; /* ancho */
+    height: 180px; /* alto */
+    background-color: #f7b06d; /* color de fondo */
+    border: 3px solid rgb(247, 176, 109); /* borde de la figura: grosor, estilo, color */
+ top: 38%; /* posición desde el borde superior del lienzo */
+    left: -15%; /* posición desde el borde izquierdo del lienzo */
+}
+
+#ojoIz {
+    width: 90px; /* ancho */
+    height: 90px; /* alto */
+    background-color: #813e00; /* color de fondo */
+    border: 3px solid #813e00; /* borde de la figura: grosor, estilo, color */
+ top: 28%; /* posición desde el borde superior del lienzo */
+    left: 9%; /* posición desde el borde izquierdo del lienzo */
+}
+
+#ojoDe {
+    width: 90px; /* ancho */
+    height: 90px; /* alto */
+    background-color: #813e00; /* color de fondo */
+    border: 3px solid #813e00; /* borde de la figura: grosor, estilo, color */
+ top: 28%; /* posición desde el borde superior del lienzo */
+    left: 54%; /* posición desde el borde izquierdo del lienzo */
+}
+#IrisIz {
+    width: 50px; /* ancho */
+    height: 50px; /* alto */
+    background-color: #000000; /* color de fondo */
+    border: 3px solid #000000; /* borde de la figura: grosor, estilo, color */
+ top: 29%; /* posición desde el borde superior del lienzo */
+    left: 9%; /* posición desde el borde izquierdo del lienzo */
+}
+#IrisDe {
+    width: 50px; /* ancho */
+    height: 50px; /* alto */
+    background-color: #000000; /* color de fondo */
+    border: 3px solid #000000; /* borde de la figura: grosor, estilo, color */
+ top: 64%; /* posición desde el borde superior del lienzo */
+    left: 40%; /* posición desde el borde izquierdo del lienzo */
+}
+#Nariz {
+    width: 50px; /* ancho */
+    height: 50px; /* alto */
+    background-color: #000000; /* color de fondo */
+    border: 3px solid #000000; /* borde de la figura: grosor, estilo, color */
+ top: 29%; /* posición desde el borde superior del lienzo */
+    left: 54%; /* posición desde el borde izquierdo del lienzo */
 }
 
 .cuadrado {
@@ -100,7 +117,7 @@ position: relative;
     top: 20px;
     left: 120px;
 }
-
+ 
 /* línea hecha con border*/
 .lineaHorizontal {
     width: 100px;
