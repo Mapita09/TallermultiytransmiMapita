@@ -2,6 +2,19 @@ body{
     background-color: rgb(253, 232, 232);
 }
 
+.titulo{
+    font-family: "Story Scipt", sans-serif ;
+    font-weight: 700;
+    font-style: italic;
+    font-size: medium;
+}
+
+.titulo:hover {
+    font-weight: 1000;
+    color: rgb(255, 127, 180);
+    cursor: pointer;
+}
+
 .parrafo {
     color: rgb(96, 47, 22);
     background-color: rgba(223, 139, 149, 0.82);
@@ -16,12 +29,7 @@ body{
     height: 35vw;
     border: 5px solid yellowgreen;
     margin: 18px;
-}
-.cuadrado {
-    width: 40vw;
-    height: 25vw;
-    border: 4px solid yellowgreen;
-    margin: 15px;
+
 }
 #contenedor2 {
     width: 70vw;
@@ -109,14 +117,6 @@ width: 380px; /* ancho */
     left: 54%; /* posición desde el borde izquierdo del lienzo */
 }
 
-.cuadrado {
-    width: 100px;
-    height: 100px;
-    background-color: rgb(251, 230, 0);
-    position: absolute;
-    top: 20px;
-    left: 120px;
-}
  
 /* línea hecha con border*/
 .lineaHorizontal {

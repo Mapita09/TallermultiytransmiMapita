@@ -72,6 +72,12 @@ overflow: hidden;
     left: 34%;
     transform: rotate(33deg);
 }
+
+.pupilaIzq {
+    animation: alternate 4s linear infinite alternate;
+}
+
+
 #pupilaDer {
     background-color: rgb(20, 19, 19);
     width: 25px;
@@ -79,6 +85,10 @@ overflow: hidden;
     top: 41%;
     left: 57%;
     transform: rotate(33deg);
+}
+
+.pupilaDer {
+    animation: alternate 4s linear infinite alternate;
 }
 
 #orejaIzq {
