@@ -4,13 +4,12 @@ body{
 
 .titulo{
     font-family: "Story Scipt", sans-serif ;
-    font-weight: 700;
+    font-weight: 1000;
     font-style: italic;
-    font-size: medium;
 }
 
 .titulo:hover {
-    font-weight: 1000;
+    font-weight: 1800;
     color: rgb(255, 127, 180);
     cursor: pointer;
 }
@@ -100,6 +99,14 @@ width: 380px; /* ancho */
  top: 29%; /* posición desde el borde superior del lienzo */
     left: 9%; /* posición desde el borde izquierdo del lienzo */
 }
+
+#IrisIz:hover {
+    width: 70px;
+    height: 70px;
+    color: rgb(255, 255, 255);
+    cursor: auto;
+}
+
 #IrisDe {
     width: 50px; /* ancho */
     height: 50px; /* alto */
@@ -108,6 +115,14 @@ width: 380px; /* ancho */
  top: 64%; /* posición desde el borde superior del lienzo */
     left: 40%; /* posición desde el borde izquierdo del lienzo */
 }
+
+#IrisDe:hover {
+    width: 90px;
+    height: 90px;
+    color: rgb(255, 255, 255);
+    cursor: auto;
+}
+
 #Nariz {
     width: 50px; /* ancho */
     height: 50px; /* alto */
@@ -115,6 +130,13 @@ width: 380px; /* ancho */
     border: 3px solid #000000; /* borde de la figura: grosor, estilo, color */
  top: 29%; /* posición desde el borde superior del lienzo */
     left: 54%; /* posición desde el borde izquierdo del lienzo */
+}
+
+#Nariz:hover {
+    width: 70px;
+    height: 70px;
+    color: rgb(254, 254, 254);
+    cursor: auto;
 }
 
  
